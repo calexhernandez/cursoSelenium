@@ -4,7 +4,7 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.chrome.service import Service
 
 
-class HomePageTest(unittest.TestCase):
+class SearchTests(unittest.TestCase):
     def setUp(self):
         s=Service('./chromedriver')
         # establecemos la referencia del driver
